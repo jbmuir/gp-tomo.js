@@ -1,4 +1,5 @@
-# Markdown Demo
+## Bayesian eikonal tomography </br> using Gaussian processes
+Jack B. Muir
 
 
 
@@ -9,9 +10,11 @@ Content 1.1
 Note: This will only appear in the speaker notes window.
 
 
-## External 1.2
+### Fitting a 1D Gaussian Process
 
-Content 1.2
+Here we use a squared exponential kernel `$\rho^2\exp(-(x-x')^2 / (2l^2))$` with data noise `$\sigma$`
+<iframe src="http://localhost:8001" width="100%" height="500">
+</iframe>
 
 
 
