@@ -8,15 +8,16 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/dracula.css">
+		<link rel="stylesheet" href="dist/theme/jbm_stylesheet.css">
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="plugin/highlight/zenburn.css">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-                <section data-markdown="presentation_markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section class="center"><h3>Bayesian eikonal tomography </br> using Gaussian processes</h3>Jack B. Muir</section>
+                <section data-markdown="slides.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 			</div>
 		</div>
 
@@ -30,6 +31,7 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
+				center: false,
 				hash: true,
 				katex: {
 				local: 'node_modules/katex',

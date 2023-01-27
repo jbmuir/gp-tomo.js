@@ -4,8 +4,8 @@ html {
   font-size: 62.5%; }
 body {
   font-size: 1.5em;
-  font-family: "Open Sans";
-  color: rgb(50, 50, 50); }
+  font-family: helvetica;
+  color: #FAFFFA; }
 
 h1 {
   font-size: 3em;
@@ -44,7 +44,7 @@ h1 {
 @media (min-width: 1200px) {}
 
 /* Custom */
-.modebar { top: 75px !important; }
+.modebar { top: 0px !important; }
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -70,4 +70,35 @@ h1 {
   .offset-by-three.columns        {margin-left: 26%;}
   .offset-by-nine.column,
   .offset-by-nine.columns         {margin-left: 78.0%;}
+}
+
+/* fix sliders */
+.rc-slider-track {
+    background-color: #10DDDD;
+  }
+  
+.rc-slider-dot-active {  
+border-color: #10DDDD;
+border: solid 2px #10DDDD;
+}
+
+.rc-slider-handle {
+background-color: #10DDDD;
+border-color: #10DDDD;
+}
+
+.rc-slider-handle:hover {
+border-color: #10DDDD;
+}
+
+.rc-slider-handle-active:active {
+border-color: #10DDDD;
+}
+
+.rc-slider-mark-text {
+    color: #FAFFFA;
+}
+
+.rc-slider-mark-text-active {
+    color: #FAFFFA;
 }
