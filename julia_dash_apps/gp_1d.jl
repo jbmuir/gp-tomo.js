@@ -195,7 +195,7 @@ function app(port, compute_derivative, rseed=1)
             line=Dict("color"=>"#FF79C6", "width"=>0),
             hoverlabel = Dict("name"=>"test", "font" => Dict("family"=>"helvetica", "size" => 14)),
             name="± 1 s.d.")]
-            range = [max(-5,1.05*min(minimum(y), minimum(ebar_ym),minimum(ebar_dym))), min(5,1.05*max(maximum(y),maximum(ebar_yp),maximum(ebar_dyp)))]
+            range = [max(-freq,1.05*min(minimum(y), minimum(ebar_ym),minimum(ebar_dym))), min(freq,1.05*max(maximum(y),maximum(ebar_yp),maximum(ebar_dyp)))]
         else
             gp_d_part = []
             range = [max(-4,1.05*min(minimum(y), minimum(ebar_ym))), min(4,1.05*max(maximum(y),maximum(ebar_yp)))]

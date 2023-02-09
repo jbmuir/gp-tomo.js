@@ -364,7 +364,19 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-bold-color: #50FA7B;
   --r-italic-color: #50FA7B;
   --r-inline-code-color: #50FA7B;
-  --r-list-bullet-color: #10DDDD;
+  --r-list-bullet-color: #50FA7B;
+}
+
+p, ul {
+  text-align: left;
+}
+
+h1, h2, h3, h4 {
+  text-align: left;
+}
+
+.center h1, .center h2, .center h3, .center h4 {
+  text-align: center;
 }
 
 .reveal strong, .reveal b {

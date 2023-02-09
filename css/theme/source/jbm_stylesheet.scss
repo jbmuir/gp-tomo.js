@@ -57,7 +57,7 @@ $linkColor: $green;
 $linkColorHover: $cyan;
 $selectionBackgroundColor: $selection;
 $inlineCodeColor: $green;
-$listBulletColor: $cyan;
+$listBulletColor: $green;
 
 $mainFont: $systemFontsSansSerif;
 $mainFontWeight: regular;
@@ -77,6 +77,18 @@ $codeFont: "Fira Code", $systemFontsMono;
 	--r-italic-color: #{$green};
 	--r-inline-code-color: #{$inlineCodeColor};
 	--r-list-bullet-color: #{$listBulletColor};
+}
+
+p, ul {
+	text-align: left; 
+}
+
+h1, h2, h3, h4 { 
+	text-align: left;
+}
+
+.center h1, .center h2, .center h3, .center h4 {
+    text-align: center;
 }
 
 .reveal strong, .reveal b {
